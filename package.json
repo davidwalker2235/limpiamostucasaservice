@@ -1,22 +1,24 @@
 {
-  "name": "limpiamostucasaservice",
+  "name": "express-on-azure",
   "version": "1.0.0",
-  "description": "Limpiamos tu casa API REST",
+  "description": "A sample application for Azure using the Express framework",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidwalker2235/limpiamostucasaservice.git"
+    "url": "git+https://github.com/microsoft/vscode-tas-express.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brian Terlson",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidwalker2235/limpiamostucasaservice/issues"
+    "url": "https://github.com/microsoft/vscode-tas-express/issues"
   },
-  "homepage": "https://github.com/davidwalker2235/limpiamostucasaservice#readme",
+  "homepage": "https://github.com/microsoft/vscode-tas-express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
   }
 }
