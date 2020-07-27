@@ -1,0 +1,22 @@
+{
+  "name": "limpiamostucasaservice",
+  "version": "1.0.0",
+  "description": "Limpiamos tu casa API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwalker2235/limpiamostucasaservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidwalker2235/limpiamostucasaservice/issues"
+  },
+  "homepage": "https://github.com/davidwalker2235/limpiamostucasaservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
