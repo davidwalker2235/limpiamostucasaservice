@@ -8,3 +8,7 @@ app.listen(3000, () => {
 app.get('/', function (req, res) {
     res.send('Saludos desde express');
 });
+
+app.get('/hola', function (req, res) {
+    res.send('[GET]Saludos desde express');
+});
